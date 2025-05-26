@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_postings",
+  "info": {
+    "singularName": "job-posting",
+    "pluralName": "job-postings",
+    "displayName": "job_posting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "salary": {
+      "type": "string"
+    },
+    "postedDate": {
+      "type": "date"
+    },
+    "deadline": {
+      "type": "date"
+    },
+    "job_Desc": {
+      "type": "blocks"
+    },
+    "job_Req": {
+      "type": "blocks"
+    },
+    "benefits": {
+      "type": "blocks"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}

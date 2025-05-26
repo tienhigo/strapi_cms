@@ -26,7 +26,7 @@ export default [
   {
     name: 'strapi::cors', // CORS middleware
     config: {
-      origin: ['http://localhost:1523'], // Allow requests from your Vite frontend
+      origin: ['http://localhost:1523', 'https://tobic.com.vn/'], // Allow requests from your Vite frontend
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'], // Allowed HTTP methods
       headers: ['Content-Type', 'Authorization'], // Allowed headers
       credentials: true, // Allow cookies or auth headers if needed
